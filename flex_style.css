@@ -1,0 +1,218 @@
+@media screen and (max-width: 480px) and (min-width: 240px) {
+
+    nav {
+        display: none;
+    }
+
+    section {
+        width: fit-content;
+    }
+
+    #home {
+        width: fit-content;
+    }
+
+
+    .slider {
+        flex-direction: column;
+        
+    }
+
+    .slides-container{
+        width:100%;
+        height:100%;
+        overflow:hidden;
+    }
+    .profilepic img{
+        width:100%;
+    }
+    .tulisan h1{
+        font-size: 120%;
+    }
+    .tulisan h6{
+        font-size: 120%;
+    }
+
+    .home,
+    .about {
+        flex-direction: column;
+    }
+
+    .hometitle h2,
+    h3 {
+        font-size: 100%;
+    }
+
+
+    
+
+    .hometitle p {
+        text-align: center;
+        padding: 30px 0px;
+    }
+
+    /* about */
+
+    .about img {
+        width: 100%;
+    }
+
+    .abouttext {
+        padding: 10px;
+    }
+
+    /* Skill */
+    .skill {
+        flex-direction: column;
+    }
+
+    .cards {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 20px 20px;
+    }
+
+    .cards2 {
+        width: 200%;
+        margin: 20% 10%;
+        margin-bottom: 20px;
+        padding: 20px 20px;
+    }
+    .card {
+        width: 180%;
+    }
+
+    .crd,.crd-image,.crd-description{
+        width:100%;
+        height:100%;
+        position:inherit;
+    }
+    .text-title,.text-body{
+        font-size:100%;
+    }
+    .crd-image img{
+        width:100%;
+    }
+
+
+
+    /* Contact */
+
+    .contact {
+        flex-direction: column;
+    }
+
+    #contact h2 {
+        margin-left: 25%;
+    }
+
+    .account {
+        padding-bottom: 30px;
+        margin-left: 70px;
+    }
+
+    .account li {
+        padding: 0px 5px;
+    }
+
+    .form__group {
+        margin: 4%;
+    }
+
+    .mail input {
+        width: 120%;
+    }
+
+    textarea {
+        width: 120%;
+    }
+    .btn{
+        width:120%
+    }
+
+    /* footer */
+
+    .sub-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-service {
+        padding-top: 30px;
+    }
+
+    .nav-footer {
+        padding-top: 30px;
+    }
+
+    /* Start from farhan */
+    .hamburger {
+        cursor: pointer;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        background-color: black;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 69px;
+        width: 100%;
+        left: 0%;
+        z-index:1;
+        background-color: rgb(252, 252, 252);
+    }   
+
+    .nav-menu ul {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        border-top:1px solid black;
+        padding: 20px 0;
+        text-align: center;
+        width:100%;
+    }
+    .active{
+        display:block;
+    }
+    .deactive{
+        display:none;
+    }
+
+    .to-top{
+        position:fixed;
+        display:flex;
+        pointer-events: none;
+        justify-content: center;
+        align-items: center;
+        right:5%;
+        bottom:5%;
+        width:45px;
+        height:45px;
+        border-radius: 50%;
+        background-color:rgb(232, 232, 232);
+        box-shadow: 1px 1px 5px black;
+        opacity:0;
+    }
+    .to-top img{
+        width:16px;
+    }
+
+    .darkmode .nav-menu{
+        background-color:black;
+    }
+    .darkmode .nav-item{
+        border-top:1px solid #121b21;
+    }
+
+    .darkmode .bar{
+        background-color:white;
+    }
+    /* end from farhan */
+}
